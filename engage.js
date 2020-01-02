@@ -35,7 +35,7 @@ const summonDot = function() {
 		const makeDot = function() {
 
 			let dot = document.createElement("div");
-			dot.setAttribute("id","dot-1");
+			dot.innerText = ("Why?");
 			dot.classList.add("dot");
 			dot.classList.add(direction);
 			heroBox.appendChild(dot);
@@ -69,6 +69,7 @@ const bannishDot = function() {
 // Randomly assign direction    ✓
 // Make multiple dots    ✓
 // Create working start and stop functions
+// get rid of dots
 // Grow dots through lifecycle
 // Create dot count variable control
 // Create speed variable control
