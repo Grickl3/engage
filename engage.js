@@ -22,8 +22,16 @@ const bannishDot = function() {
 	heroBox.removeChild(dot);
 }
 
+const dotCycle = function() {
+	summonDot();
+	setTimeout(function() {
+		bannishDot(); 
+	}, 3000);
+}
+
+
 // Make a dot    ✓
-// Make it appear and disappear
+// Make it appear and disappear    ✓
 // Create Lifecycle
 // Make it move toward the edge of the screen
 // Make multiple dots
