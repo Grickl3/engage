@@ -70,7 +70,7 @@
 
 		@keyframes twelve {
 			from {top: 40vh;}
-			to {top: 0;}
+			to {top: -20vh;}
 		}
 
 		.one {
@@ -85,7 +85,7 @@
 				left: 50vw;
 			}
 			to {
-				top: 0;
+				top: -20vh;
 				left: 75vw;
 			}
 		}
@@ -102,7 +102,7 @@
 				left: 50vw;
 			}
 			to {
-				top: 0;
+				top: -20vh;
 				left: 100vw;
 			}
 		}
@@ -120,7 +120,7 @@
 			}
 			to {
 				top: 40vh;
-				left: 100vw;
+				left: 120vw;
 			}
 		}
 
@@ -137,7 +137,7 @@
 			}
 			to {
 				top: 0;
-				left: 100vw;
+				left: 120vw;
 			}
 		}
 
@@ -153,7 +153,7 @@
 				left: 50vw;
 			}
 			to {
-				top: 100vh;
+				top: 120vh;
 				left: 65vw;
 			}
 		}
@@ -170,7 +170,7 @@
 				left: 50vw;
 			}
 			to {
-				top: 100vh;
+				top: 120vh;
 				left: 50vw;
 			}
 		}
@@ -187,7 +187,7 @@
 				left: 50vw;
 			}
 			to {
-				top: 100vh;
+				top: 120vh;
 				left: 25vw;
 			}
 		}
@@ -205,7 +205,7 @@
 			}
 			to {
 				top: 75vh;
-				left: 0vw;
+				left: -20vw;
 			}
 		}
 
@@ -222,7 +222,7 @@
 			}
 			to {
 				top: 40vh;
-				left: 0vw;
+				left: -20vw;
 			}
 		}
 
@@ -239,7 +239,7 @@
 			}
 			to {
 				top: 15vh;
-				left: 0vw;
+				left: -20vw;
 			}
 		}
 
@@ -255,7 +255,7 @@
 				left: 50vw;
 			}
 			to {
-				top: 0;
+				top: -20vh;
 				left: 10vw;
 			}
 		}

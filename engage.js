@@ -17,6 +17,8 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
+let speed = 1500;
+
 const directions = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
 
 let vector = 0;
@@ -38,13 +40,19 @@ const summonDot = function() {
 			dot.classList.add(direction);
 			heroBox.appendChild(dot);
 		}
-
 		makeDot();
 	}
-
 	direct();
-	
 }
+
+
+const engage = setInterval(summonDot, speed);
+
+
+const disengage = function() { 
+	clearInterval(engage); 
+}
+
 
 const bannishDot = function() {
 	let dot = document.querySelector("#dot-1");
@@ -59,7 +67,8 @@ const bannishDot = function() {
 // Create Lifecycle    ✓
 // Make it move toward the edge of the screen    ✓
 // Randomly assign direction    ✓
-// Make multiple dots
+// Make multiple dots    ✓
+// Create working start and stop functions
 // Grow dots through lifecycle
 // Create dot count variable control
 // Create speed variable control
