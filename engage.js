@@ -4,6 +4,13 @@
 		console.log("Hi, " + name + "!");
 	};
 
+	const dotCycle = function() {
+	summonDot();
+	setTimeout(function() {
+		bannishDot(); 
+	}, 3000);
+}
+
 
 
 function getRandomInt(max) {
@@ -44,12 +51,7 @@ const bannishDot = function() {
 	heroBox.removeChild(dot);
 }
 
-const dotCycle = function() {
-	summonDot();
-	setTimeout(function() {
-		bannishDot(); 
-	}, 3000);
-}
+
 
 
 // Make a dot    ✓

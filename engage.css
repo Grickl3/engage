@@ -65,6 +65,7 @@
 		.twelve {
 			animation-name: twelve;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes twelve {
@@ -75,6 +76,7 @@
 		.one {
 			animation-name: one;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes one {
@@ -91,6 +93,7 @@
 		.two {
 			animation-name: two;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes two {
@@ -107,6 +110,7 @@
 		.three {
 			animation-name: three;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes three {
@@ -123,6 +127,7 @@
 		.four {
 			animation-name: four;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes four {
@@ -139,6 +144,7 @@
 		.five {
 			animation-name: five;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes five {
@@ -155,6 +161,7 @@
 		.six {
 			animation-name: six;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes six {
@@ -169,8 +176,9 @@
 		}
 
 		.seven {
-			animation-name: seveno;
+			animation-name: seven;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes seven {
@@ -187,6 +195,7 @@
 		.eight {
 			animation-name: eight;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes eight {
@@ -203,6 +212,7 @@
 		.nine {
 			animation-name: nine;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes nine {
@@ -219,6 +229,7 @@
 		.ten {
 			animation-name: ten;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes ten {
@@ -235,6 +246,7 @@
 		.eleven {
 			animation-name: eleven;
 			animation-duration: 3s;
+			animation-fill-mode: forwards;
 		}
 
 		@keyframes eleven {
