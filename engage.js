@@ -32,7 +32,7 @@ const dotCycle = function() {
 
 // Make a dot    ✓
 // Make it appear and disappear    ✓
-// Create Lifecycle
+// Create Lifecycle    ✓
 // Make it move toward the edge of the screen
 // Make multiple dots
 // Randomly assign direction
@@ -40,5 +40,6 @@ const dotCycle = function() {
 // Create speed variable control
 // Create frequency variable control
 // Make question array
+// Replace dots with questions
 // Randomly grab questions
 // Polish the type
