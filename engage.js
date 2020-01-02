@@ -36,6 +36,7 @@ const dotCycle = function() {
 // Make it move toward the edge of the screen
 // Make multiple dots
 // Randomly assign direction
+// Grow dots through lifecycle
 // Create dot count variable control
 // Create speed variable control
 // Create frequency variable control
