@@ -53,9 +53,6 @@
 		left: 50vw;
 		transform: translateX(-50%);
 
-		animation-name: twelve;
-		animation-duration: 3s;
-
 		margin: 0rem;
 		height: 2rem;
 		width: 2rem;
@@ -63,7 +60,200 @@
 		background-color: gold;
 	}
 
-	@keyframes twelve {
-		from {top: 40vh;}
-		to {top: 0;}
-	}
+	/* ========================== VECTORS ============ */
+
+		.twelve {
+			animation-name: twelve;
+			animation-duration: 3s;
+		}
+
+		@keyframes twelve {
+			from {top: 40vh;}
+			to {top: 0;}
+		}
+
+		.one {
+			animation-name: one;
+			animation-duration: 3s;
+		}
+
+		@keyframes one {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 0;
+				left: 75vw;
+			}
+		}
+
+		.two {
+			animation-name: two;
+			animation-duration: 3s;
+		}
+
+		@keyframes two {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 0;
+				left: 100vw;
+			}
+		}
+
+		.three {
+			animation-name: three;
+			animation-duration: 3s;
+		}
+
+		@keyframes three {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 40vh;
+				left: 100vw;
+			}
+		}
+
+		.four {
+			animation-name: four;
+			animation-duration: 3s;
+		}
+
+		@keyframes four {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 0;
+				left: 100vw;
+			}
+		}
+
+		.five {
+			animation-name: five;
+			animation-duration: 3s;
+		}
+
+		@keyframes five {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 100vh;
+				left: 65vw;
+			}
+		}
+
+		.six {
+			animation-name: six;
+			animation-duration: 3s;
+		}
+
+		@keyframes six {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 100vh;
+				left: 50vw;
+			}
+		}
+
+		.seven {
+			animation-name: seveno;
+			animation-duration: 3s;
+		}
+
+		@keyframes seven {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 100vh;
+				left: 25vw;
+			}
+		}
+
+		.eight {
+			animation-name: eight;
+			animation-duration: 3s;
+		}
+
+		@keyframes eight {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 75vh;
+				left: 0vw;
+			}
+		}
+
+		.nine {
+			animation-name: nine;
+			animation-duration: 3s;
+		}
+
+		@keyframes nine {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 40vh;
+				left: 0vw;
+			}
+		}
+
+		.ten {
+			animation-name: ten;
+			animation-duration: 3s;
+		}
+
+		@keyframes ten {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 15vh;
+				left: 0vw;
+			}
+		}
+
+		.eleven {
+			animation-name: eleven;
+			animation-duration: 3s;
+		}
+
+		@keyframes eleven {
+			from {
+				top: 40vh;
+				left: 50vw;
+			}
+			to {
+				top: 0;
+				left: 10vw;
+			}
+		}
+
+
+
+
+
+
+
+
+
+

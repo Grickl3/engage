@@ -5,16 +5,38 @@
 	};
 
 
-const makeDot = function() {
 
-	let dot = document.createElement("div");
-	dot.setAttribute("id","dot-1");
-	dot.classList.add("dot");
-	heroBox.appendChild(dot);
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
 }
 
+const directions = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+
+let vector = 0;
+let direction = "";
+let dots = [];
+
 const summonDot = function() {
-	makeDot();
+
+	let direct = function() {
+		let vector = getRandomInt(12);
+		let direction = directions[vector];
+		console.log(direction);
+
+		const makeDot = function() {
+
+			let dot = document.createElement("div");
+			dot.setAttribute("id","dot-1");
+			dot.classList.add("dot");
+			dot.classList.add(direction);
+			heroBox.appendChild(dot);
+		}
+
+		makeDot();
+	}
+
+	direct();
+	
 }
 
 const bannishDot = function() {
@@ -33,9 +55,9 @@ const dotCycle = function() {
 // Make a dot    ✓
 // Make it appear and disappear    ✓
 // Create Lifecycle    ✓
-// Make it move toward the edge of the screen
+// Make it move toward the edge of the screen    ✓
+// Randomly assign direction    ✓
 // Make multiple dots
-// Randomly assign direction
 // Grow dots through lifecycle
 // Create dot count variable control
 // Create speed variable control
@@ -44,3 +66,13 @@ const dotCycle = function() {
 // Replace dots with questions
 // Randomly grab questions
 // Polish the type
+
+
+
+
+
+
+
+
+
+
