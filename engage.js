@@ -74,8 +74,9 @@ const declutter = function() {
 		let ruffian = document.querySelector("#query-" + cutoff);
 		// log the id of that element (for testing during dev)
 		// console.log("#query-" + cutoff);
-		// check the 
+		// make sure that an HTML element is being selected
 		console.log("ruffian: " + ruffian);
+		// kill it
 		heroBox.removeChild(ruffian);
 	}
 
