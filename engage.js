@@ -5,11 +5,16 @@
 	};
 
 	const dotCycle = function() {
-	summonDot();
-	setTimeout(function() {
-		bannishDot(); 
-	}, 3000);
-}
+		summonDot();
+		setTimeout(function() {
+			bannishDot(); 
+		}, 3000);
+	}
+
+	const bannishDot = function() {
+		let dot = document.querySelector("#dot-1");
+		heroBox.removeChild(dot);
+	}
 
 
 
@@ -23,7 +28,8 @@ const directions = ["one", "two", "three", "four", "five", "six", "seven", "eigh
 
 let vector = 0;
 let direction = "";
-let dots = [];
+let count = 0;
+let maxQuestions = 5;
 
 const summonDot = function() {
 
@@ -37,8 +43,13 @@ const summonDot = function() {
 			let dot = document.createElement("div");
 			dot.innerText = ("Why?");
 			dot.classList.add("dot");
+			count += 1;
+			console.log("count: " + count);
+			dot.setAttribute("id","query-" + count);
 			dot.classList.add(direction);
 			heroBox.appendChild(dot);
+
+			declutter();
 		}
 		makeDot();
 	}
@@ -53,11 +64,24 @@ const disengage = function() {
 	clearInterval(engage); 
 }
 
+const declutter = function() {
+	
+	// assess density
+	if (count > maxQuestions) {  
+		// determine how many children may live  
+		let cutoff = count-maxQuestions;  
+		// find the superannuated child   
+		let ruffian = document.querySelector("#query-" + cutoff);
+		// log the id of that element (for testing during dev)
+		// console.log("#query-" + cutoff);
+		// check the 
+		console.log("ruffian: " + ruffian);
+		heroBox.removeChild(ruffian);
+	}
 
-const bannishDot = function() {
-	let dot = document.querySelector("#dot-1");
-	heroBox.removeChild(dot);
 }
+
+
 
 
 
